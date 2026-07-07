@@ -6,12 +6,32 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+    <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
+    <div class="floating-shape shape-3"></div>
+    <div class="floating-shape shape-4"></div>
+
     <div class="container center">
-        <span class="badge">💰 ML Project</span>
         <h1>SalarySage</h1>
         <div class="subtitle">Salary Prediction using Ensemble Learning</div>
-        <p>Data Science jobs ki estimated salary predict karo — Random Forest, Gradient Boosting, aur XGBoost ke combination se.</p>
-        <a href="/predict" class="btn">Get Started →</a>
+        <p>No guesswork. No googling salary forums. Just real predictions, backed by real data.</p>
+
+        <div class="stats-row">
+            <div class="stat-box">
+                <span class="stat-number">3</span>
+                <span class="stat-label">ML Models</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">4</span>
+                <span class="stat-label">Currencies</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">3768</span>
+                <span class="stat-label">Data Points</span>
+            </div>
+        </div>
+
+        <a href="/predict" class="btn">Get Started <span class="arrow">→</span></a>
         <div class="nav-links">
             <a href="/contact">Contact</a>
         </div>
