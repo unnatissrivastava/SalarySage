@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Predict Salary</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <span class="badge">🔮 Predictor</span>
+        <h2>Predict Your Salary</h2>
+        <form method="POST" action="/predict">
+            <label>Experience Level</label>
+            <select name="experience_level" required>
+                <option value="EN">Entry-Level</option>
+                <option value="MI">Mid-Level</option>
+                <option value="SE">Senior-Level</option>
+                <option value="EX">Executive-Level</option>
+            </select>
+
+            <label>Employment Type</label>
+            <select name="employment_type" required>
+                <option value="FT">Full-Time</option>
+                <option value="PT">Part-Time</option>
+                <option value="CT">Contract</option>
+                <option value="FL">Freelance</option>
+            </select>
+
+            <label>Job Title</label>
+            <select name="job_title" required>
+                {% for t in titles %}
+                <option value="{{ t }}">{{ t }}</option>
+                {% endfor %}
+            </select>
+
+            <label>Remote Ratio</label>
+            <select name="remote_ratio" required>
+                <option value="0">Office (No Remote)</option>
+                <option value="50">Hybrid</option>
+                <option value="100">Fully Remote</option>
+            </select>
+
+            <label>Company Location</label>
+            <select name="company_location" required>
+                {% for l in locations %}
+                <option value="{{ l }}">{{ l }}</option>
+                {% endfor %}
+            </select>
+
+            <label>Company Size</label>
+            <select name="company_size" required>
+                <option value="S">Small</option>
+                <option value="M">Medium</option>
+                <option value="L">Large</option>
+            </select>
+
+            <label>Work Year</label>
+            <input type="number" name="work_year" min="2020" max="2024" value="2023" required>
+            <label>Show Salary In (Currency)</label>
+<select name="currency" required>
+    <option value="USD">USD ($)</option>
+    <option value="INR">INR (₹)</option>
+    <option value="EUR">EUR (€)</option>
+    <option value="GBP">GBP (£)</option>
+</select>
+
+            <button type="submit" class="btn">Predict Salary</button>
+        </form>
+        <div class="nav-links">
+            <a href="/">← Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
