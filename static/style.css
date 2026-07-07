@@ -267,3 +267,33 @@ select:focus, input:focus {
 @media (prefers-reduced-motion: reduce) {
     h1, .btn .arrow { animation: none; }
 }
+/* ---------- Floating Job Applications & Pins ---------- */
+
+.floating-shape { display: block !important; position: fixed; pointer-events: none; z-index: 0; }
+
+.floating-shape svg { width: 100%; height: 100%; overflow: visible; }
+
+.shape-1 { top: 10%; left: 6%; width: 70px; height: 90px; animation: float-rotate 7s ease-in-out infinite; }
+.shape-2 { bottom: 12%; right: 8%; width: 60px; height: 78px; animation: float-rotate 8s ease-in-out infinite reverse; }
+.shape-3 { top: 18%; right: 10%; width: 42px; height: 42px; animation: pin-drop 5s ease-in-out infinite; }
+.shape-4 { bottom: 16%; left: 9%; width: 38px; height: 38px; animation: pin-drop 6s ease-in-out infinite reverse; }
+.shape-5 { top: 55%; left: 3%; width: 55px; height: 70px; animation: float-rotate 9s ease-in-out infinite; display: block; }
+.shape-6 { top: 62%; right: 4%; width: 36px; height: 36px; animation: pin-drop 6.5s ease-in-out infinite; display: block; }
+
+@keyframes float-rotate {
+    0%, 100% { transform: translateY(0) rotate(-4deg); }
+    50% { transform: translateY(-22px) rotate(4deg); }
+}
+
+@keyframes pin-drop {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-14px) rotate(12deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .floating-shape { animation: none !important; }
+}
+
+@media (max-width: 700px) {
+    .floating-shape { display: none !important; }
+}
