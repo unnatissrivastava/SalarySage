@@ -85,7 +85,7 @@ The model was trained on salary data (ds_salaries.csv) using categorical feature
 
 📌 Status
 
-🔄 Work in progress — part of my AI/ML learning journey.
+🔄 Work in progress part of my AI/ML learning journey.
 
 🙋‍♀️ Author
 
