@@ -1,6 +1,6 @@
 SalarySage 💰
 
-A machine learning-powered web app that predicts salaries based on job title, remote work ratio, company location, and company size — with results converted into multiple currencies.
+A machine learning-powered web app that predicts salaries based on job title, remote work ratio, company location, and company size with results converted into multiple currencies.
 
 🔍 Overview
 
@@ -20,7 +20,7 @@ Company Size
 
 Converts predicted salary into multiple currencies
 Clean, simple web interface (Home, Predict, Result, Contact pages)
-Exploratory Data Analysis (EDA) included — salary distribution & salary by experience
+Exploratory Data Analysis (EDA) included salary distribution & salary by experience
 Model comparison and feature importance visualizations
 
 
@@ -89,4 +89,4 @@ The model was trained on salary data (ds_salaries.csv) using categorical feature
 
 🙋‍♀️ Author
 
-Built while learning Data Science & ML — feedback welcome!
+Built while learning Data Science & ML feedback welcome!
