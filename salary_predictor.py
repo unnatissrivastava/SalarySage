@@ -230,7 +230,3 @@ def interactive_predict():
     except Exception as e:
         print(f"\n❌ Error: {e}")
         print("Check karo values sahi format mein daali hain (jaise numbers ke liye numbers).")
-
-
-# Isko run karne ke liye uncomment karo:
-interactive_predict()
