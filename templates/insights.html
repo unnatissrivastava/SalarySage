@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Model Insights — SalarySage</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <span class="badge">📊 On-Chain Analytics</span>
+        <h2>Model Insights</h2>
+        <p>A look under the hood — how the model performs, and what data patterns it learned from.</p>
+
+        <div class="insight-block">
+            <h3>Model Comparison</h3>
+            <img src="{{ url_for('static', filename='model_comparison.png') }}" alt="Model Comparison" class="insight-img">
+        </div>
+
+        <div class="insight-block">
+            <h3>Feature Importance</h3>
+            <img src="{{ url_for('static', filename='feature_importance.png') }}" alt="Feature Importance" class="insight-img">
+        </div>
+
+        <div class="insight-block">
+            <h3>Salary Distribution</h3>
+            <img src="{{ url_for('static', filename='eda_salary_distribution.png') }}" alt="Salary Distribution" class="insight-img">
+        </div>
+
+        <div class="insight-block">
+            <h3>Salary by Experience</h3>
+            <img src="{{ url_for('static', filename='eda_salary_by_experience.png') }}" alt="Salary by Experience" class="insight-img">
+        </div>
+
+        <div class="nav-links">
+            <a href="/">Home</a> &nbsp;|&nbsp; <a href="/careers">Career Paths</a>
+        </div>
+    </div>
+</body>
+</html>git add .
