@@ -16,7 +16,6 @@ categorical_cols = ['experience_level', 'employment_type', 'job_title_grouped',
 feature_order = ['work_year', 'experience_level', 'employment_type', 'job_title_grouped',
                   'remote_ratio', 'company_location_grouped', 'company_size']
 
-# Fixed exchange rates (USD ke against) - approx rates
 CURRENCY_RATES = {
     'USD': 1,
     'INR': 83.5,
@@ -73,6 +72,16 @@ def predict():
         return render_template('result.html', salary=f"{converted_salary:,.2f}", symbol=symbol, currency=currency)
 
     return render_template('predict.html', titles=top_titles, locations=top_locations)
+
+
+@app.route('/insights')
+def insights():
+    return render_template('insights.html')
+
+
+@app.route('/careers')
+def careers():
+    return render_template('careers.html')
 
 
 @app.route('/contact')
