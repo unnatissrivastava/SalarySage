@@ -9,7 +9,7 @@ label_encoders = joblib.load("label_encoders.pkl")
 
 df = pd.read_csv("ds_salaries.csv")
 top_titles = df['job_title'].value_counts().nlargest(10).index.tolist()
-top_locations = df['company_location'].value_counts().nlargest(10).index.tolist()
+top_locations = sorted(df['company_location'].unique().tolist())
 
 categorical_cols = ['experience_level', 'employment_type', 'job_title_grouped',
                      'company_location_grouped', 'company_size']
