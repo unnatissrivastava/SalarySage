@@ -11,6 +11,7 @@ SalarySage is a machine learning web application that predicts Data Science job 
 
 🔗 GitHub Repository: https://github.com/unnatissrivastava/SalarySage
 
+📊 Presentation: [SalarySage_Presentation_UnnatiVardhan_Batch4.pptx](./SalarySage_Presentation_UnnatiVardhan_Batch4.pptx)
 
 ⚠️ Note: The live demo is hosted on Render's free tier. If it hasn't been visited in a while, the first load may take 30–50 seconds to "wake up."
 
