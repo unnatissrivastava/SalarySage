@@ -52,30 +52,31 @@ Rather than relying on guesswork or scattered salary forums, SalarySage uses a t
 
 
 
-🗂️ Project Structure
+## 🗂️ Project Structure
 
+```
 SalarySage/
-├── app.py                       # Flask web application (routes & prediction logic)
-├── salary_predictor.py          # ML training script — trains & saves the model
-├── ds_salaries.csv              # Dataset (2020–2025 Data Science job salaries)
-├── requirements.txt             # Python dependencies
-├── Procfile                     # Deployment config for Render
-├── salary_model.pkl             # Saved, trained best-performing model
-├── label_encoders.pkl           # Saved label encoders for categorical features
-├── README.md                    # Project documentation (this file)
+├── app.py                 # Flask web application (routes & prediction logic)
+├── salary_predictor.py    # ML training script — trains & saves the model
+├── ds_salaries.csv        # Dataset (2020–2025 Data Science job salaries)
+├── requirements.txt       # Python dependencies
+├── Procfile                # Deployment config for Render
+├── salary_model.pkl        # Saved, trained best-performing model
+├── label_encoders.pkl      # Saved label encoders for categorical features
+├── README.md                # Project documentation (this file)
 │
-├── templates/                   # HTML pages (Jinja2 templates)
-│   ├── home.html                # Landing page
-│   ├── predict.html             # Prediction input form
-│   ├── result.html               # Prediction result page
-│   ├── insights.html            # Model insights & graphs page
-│   ├── careers.html             # Interactive career growth timeline
-│   └── contact.html             # Contact/about page
+├── templates/                # HTML pages (Jinja2 templates)
+│   ├── home.html             # Landing page
+│   ├── predict.html          # Prediction input form
+│   ├── result.html           # Prediction result page
+│   ├── insights.html         # Model insights & graphs page
+│   ├── careers.html          # Interactive career growth timeline
+│   └── contact.html          # Contact/about page
 │
 └── static/
-    ├── style.css                 # Site styling
-    └── *.png                     # Graphs (EDA, model comparison, etc.)
-
+    ├── style.css              # Site styling
+    └── *.png                  # Graphs (EDA, model comparison, etc.)
+```
 
 ⚙️ How to Run This Project Locally
 
