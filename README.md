@@ -8,6 +8,7 @@ SalarySage is a machine learning web application that predicts Data Science job 
 
 
 🔗 Live Demo: https://salarysage.onrender.com
+
 🔗 GitHub Repository: https://github.com/unnatissrivastava/SalarySage
 
 
