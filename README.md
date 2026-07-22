@@ -1,4 +1,4 @@
-💰 SalarySage — Salary Prediction using Ensemble Learning
+💰 SalarySage : Salary Prediction using Ensemble Learning
 
 SalarySage is a machine learning web application that predicts Data Science job salaries using an ensemble of Random Forest, Gradient Boosting, and XGBoost models, trained on real-world global salary data (2020–2025). It includes a full interactive web interface built with Flask, model insight visualizations, and multi-currency support.
 
