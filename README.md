@@ -44,7 +44,7 @@ Rather than relying on guesswork or scattered salary forums, SalarySage uses a t
 
 
 🔮 Interactive Salary Predictor enter your experience level, job title, employment type, remote ratio, company location, company size, and work year to get an instant salary estimate
-🌍 All Countries Supported — the location dropdown includes every country present in the dataset, not just the most common ones
+🌍 All Countries Supported : the location dropdown includes every country present in the dataset, not just the most common ones
 🤖 Ensemble Learning — combines Random Forest, Gradient Boosting, and XGBoost via a Voting Regressor for more robust predictions than any single model
 🎯 Hyperparameter Tuning — uses GridSearchCV to find the best-performing model configuration
 💱 Multi-Currency Support — view predictions in USD, INR, EUR, or GBP
