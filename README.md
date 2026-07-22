@@ -37,7 +37,7 @@ Author
 
 This project was built to answer a simple question: "What should a Data Science professional expect to earn, based on their experience, role, and location?"
 
-Rather than relying on guesswork or scattered salary forums, SalarySage uses a trained ensemble machine learning model — built on real, publicly available salary data to generate consistent, data-backed salary estimates through a clean, interactive web interface.
+Rather than relying on guesswork or scattered salary forums, SalarySage uses a trained ensemble machine learning model built on real, publicly available salary data to generate consistent, data-backed salary estimates through a clean, interactive web interface.
 
 
 ✨ Features
