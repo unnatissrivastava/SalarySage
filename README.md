@@ -47,7 +47,7 @@ Rather than relying on guesswork or scattered salary forums, SalarySage uses a t
 🌍 All Countries Supported : the location dropdown includes every country present in the dataset, not just the most common ones
 🤖 Ensemble Learning : combines Random Forest, Gradient Boosting, and XGBoost via a Voting Regressor for more robust predictions than any single model
 🎯 Hyperparameter Tuning : uses GridSearchCV to find the best-performing model configuration
-💱 Multi-Currency Support — view predictions in USD, INR, EUR, or GBP
+💱 Multi-Currency Support  view predictions in USD, INR, EUR, or GBP
 📈 Career Paths Page — an interactive timeline showing how salary and skills evolve from Entry to Executive level
 📊 Model Insights Page — visualizes model comparison, feature importance, and salary distribution trends
 🌐 Fully Deployed — live, publicly accessible web app (not just a local script), auto-deployed via Render on every GitHub push
