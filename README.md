@@ -126,7 +126,7 @@ http://127.0.0.1:5000
 
 🧠 Machine Learning Approach
 
-StepDescriptionDatasetData Science Job Salaries — 2020 to 2025Target Variablesalary_in_usdFeatures UsedWork year, experience level, employment type, job title, remote ratio, company location, company sizePreprocessingLabel Encoding for categorical variables; top-10 grouping for high-cardinality fields (job title); all countries retained for locationModels TrainedRandom Forest Regressor, Gradient Boosting Regressor, XGBoost RegressorEnsemble MethodVoting Regressor (averages predictions across all three models)TuningGridSearchCV with 3-fold cross-validation, optimized for R² scoreEvaluation MetricsMean Absolute Error (MAE), Root Mean Squared Error (RMSE), R² Score
+StepDescriptionDatasetData Science Job Salaries 2020 to 2025Target Variablesalary_in_usdFeatures UsedWork year, experience level, employment type, job title, remote ratio, company location, company sizePreprocessingLabel Encoding for categorical variables; top-10 grouping for high-cardinality fields (job title); all countries retained for locationModels TrainedRandom Forest Regressor, Gradient Boosting Regressor, XGBoost RegressorEnsemble MethodVoting Regressor (averages predictions across all three models)TuningGridSearchCV with 3-fold cross-validation, optimized for R² scoreEvaluation MetricsMean Absolute Error (MAE), Root Mean Squared Error (RMSE), R² Score
 
 
 📈 Model Performance
