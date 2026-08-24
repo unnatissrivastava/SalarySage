@@ -131,7 +131,7 @@ StepDescriptionDatasetData Science Job Salaries — 2020 to 2025Target Variables
 
 📈 Model Performance
 
-The Voting Ensemble was compared against each individual model on a held-out test set (20% of the data). The best-performing configuration — a tuned Random Forest — was selected as the final production model based on R² score.
+The Voting Ensemble was compared against each individual model on a held-out test set (20% of the data). The best-performing configuration a tuned Random Forest — was selected as the final production model based on R² score.
 
 Detailed comparison charts (model performance, feature importance, and salary distribution) are available on the Insights page of the app.
 
