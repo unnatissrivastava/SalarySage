@@ -54,7 +54,7 @@ Rather than relying on guesswork or scattered salary forums, SalarySage uses a t
 
 
 
-## Project Structure
+## 🗂️Project Structure
 
 ```
 SalarySage/
